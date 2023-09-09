@@ -17,10 +17,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
-
-3-print_alphabets.c
-
-#include <stdio.h>
-
-... (270 lines left)
