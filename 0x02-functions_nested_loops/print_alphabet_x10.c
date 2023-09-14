@@ -2,27 +2,31 @@
 
 
 	/**
-	 * print_alphabet_x10 - prints 10 times the alphabet, in lowercase,
-	 * followed by a new line
-	 */
-	void print_alphabet_x10(void)
+	 * latgest_number - returns the largest of 3 integers
+	 *
+	 * @a: if a bigger than b and c then a the largest number
+	 * @b: if b bigger than a and c then b is the largest
+	 * @c: if c is the largest then it's bigger than a and b
+	 *
+	 * Return: 0
+         */
+         int largest number (int a, int b, int c)
 	{
-		char ch;
-		int i;
+	
 
+int largest;
 
-		i = 0;
-
-
-		while (i < 10)
-		{
-			ch = 'a';
-			while (ch <= 'z')
-			{
-				_putchar(ch);
-				ch++;
-			}
-			_putchar('\n');
-			i++;
-		}
-	}
+if (a >= b && a >= c)
+{
+largest = a;
+}
+else if (b >= a && b >= c)
+{
+largest = b;
+}
+else
+{
+largest = c;
+}
+return (largest);
+}
